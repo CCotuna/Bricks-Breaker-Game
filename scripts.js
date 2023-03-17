@@ -3,17 +3,24 @@ function setup() {
 }
 
 function draw () {
-    background("#ffa500")
+    background("#8a2be2")
 
     smileFaceCalin();
 }
 
 function smileFaceCalin() {
     //skin
-    fill("#bab4b5");
-    circle(200,360,30);
+    fill("#fe00f6");
+    circle(200,360,35);
    
-    //eyes
-    circle(205,357,2);
-    circle(195,357,2);
+    //right eye
+    circle(205,357,4);
+    circle(205,357,1);  //pupil
+    
+    //left eye
+    circle(195,357,4);
+    circle(195,357,1);  //pupil
+    //mouth
+
+    arc(200,364,12,10,0, Math.PI);
 }
