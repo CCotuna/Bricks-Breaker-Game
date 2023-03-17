@@ -4,5 +4,9 @@ function setup() {
 
 function draw () {
     background("#ff0000")
+    smileyFaceTimo();
 }
 
+function smileyFaceTimo () {
+    circle(200, 350, 30);
+}
