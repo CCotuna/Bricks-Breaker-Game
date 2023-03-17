@@ -3,6 +3,13 @@ function setup() {
 }
 
 function draw () {
-    background("#ff0000")
+    background("#0099ff")
+
+    smileFaceCalin();
+}
+
+function smileFaceCalin() {
+    circle(200,200,50);
+    
 }
 
