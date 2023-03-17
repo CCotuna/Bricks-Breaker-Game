@@ -27,6 +27,6 @@ function smileyFaceTimo () {
     rect(196, 352.5, 4, 4);
     
     //sprancene
-    line(192, 343, 330,290, );
+    //line(192, 343, 330,290, );
 }
 
