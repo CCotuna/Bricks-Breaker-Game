@@ -3,6 +3,7 @@ function setup() {
 }
 
 function draw () {
+
     background("#a0daa9")
     smileyFaceTimo();
 }
@@ -11,11 +12,13 @@ function smileyFaceTimo () {
     //head
     fill ("#99999")
     circle(200, 350, 30);
-    //eyes
+   
+   //eyes
     fill ("#000000")
     circle(205, 346, 4);
     circle(196, 346, 4);
-    //pupiles
+  
+   //pupiles
 
     //mouth
     fill ("#000000")
@@ -28,5 +31,7 @@ function smileyFaceTimo () {
     
     //sprancene
     //line(192, 343, 330,290, );
-}
+
+
+
 
